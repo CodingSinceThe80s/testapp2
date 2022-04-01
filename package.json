@@ -4,8 +4,12 @@
   "description": "ein test",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node app"
   },
   "author": "Ich",
-  "license": "UNLICENSED"
+  "license": "UNLICENSED",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
 }
